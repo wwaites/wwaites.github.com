@@ -8,7 +8,7 @@ such by [William Waites]. I have been playing the [Highland Bagpipe]
 since I was twelve years old though my main instrument nowadays is a
 stand of [Border Pipes] made by [Nigel Richard]. I had my first
 lessons from Alec MacNeill at the [Black Watch Association] in
-Montreal and later with Alex Orbegoso as well as some lessons with
+Montreal and later with Alex Orbegoso as well as a few lessons with
 Archie Cairns and Colin MacLellan. In the mid 1990s I met with some
 success on the Ontario and Montreal competition circuit but have not
 competed for the past 15 years or so. These days I often play at
