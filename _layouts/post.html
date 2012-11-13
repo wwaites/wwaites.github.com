@@ -15,12 +15,12 @@
           <div class="well well-small">
             {% if page.previous %}
             <div class="pull-left">
-              <a href="{{page.previous.url}}">&#8666; Previous: {{page.previous.title}}</a>
+              <a href="../../..{{page.previous.url}}">&#8666; Previous: {{page.previous.title}}</a>
             </div>
             {% endif %}
             {% if page.next %}
             <div class="pull-right">
-              <a href="{{page.next.url}}">Next: {{page.next.title}} &#8667;</a>
+              <a href="../../..{{page.next.url}}">Next: {{page.next.title}} &#8667;</a>
             </div>
             {% endif %}
           </div>
@@ -30,7 +30,7 @@
       <div class="row">
         <div class="span2">
           <ul class="unstyled">
-            <li><a href="/">Home</a></li>
+            <li><a href="../../../">Home</a></li>
           </ul>
         </div>
 	<div class="span8">
