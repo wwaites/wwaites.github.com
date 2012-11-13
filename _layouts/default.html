@@ -9,12 +9,27 @@
   </head>
   <body>
     <div class="container">
-      <ul id="share" class="nav">
-        <li><a id="shareNice" share-label="Share"></a></li>
-      </ul>
-      <h1>{{page.title}}</h1>
-      <div class="content">
+      <div class="row">
+	<div class="span8">
+	  <h1>{{page.title}}</h1>
+	</div>
+        <div class="span2">
+          <ul id="share" class="nav">
+            <li><a id="shareNice" share-label="Share"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span2">
+          <ul class="unstyled">
+            <li><a href="/">Home</a></li>
+          </ul>
+        </div>
+        <div class="span8">
+	  <div class="content">
 {{content}}
+	  </div>
+	</div>
       </div>
     </div>
     <script src="http://code.jquery.com/jquery-latest.js"></script>
