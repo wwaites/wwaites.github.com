@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{page.title}}</title>
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+      #share { float: right; padding-top: 7px; }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          {% if page.next or page.previous %}
+          <div class="well well-small">
+            {% if page.previous %}
+            <div class="pull-left">
+              <a href="{{page.previous.url}}">&#8666; Previous: {{page.previous.title}}</a>
+            </div>
+            {% endif %}
+            {% if page.next %}
+            <div class="pull-right">
+              <a href="{{page.next.url}}">Next: {{page.next.title}} &#8667;</a>
+            </div>
+            {% endif %}
+          </div>
+          {% endif %}
+	</div>
+      </div>
+      <div class="row">
+        <div class="span2">
+          <ul class="unstyled">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">About</a></li>
+          </ul>
+        </div>
+	<div class="span8">
+          <ul id="share" class="nav">
+            <li><a id="shareNice" share-label="Share"></a></li>
+          </ul>
+          Download:
+            <a href="/tunes/{{page.tune}}.abc">ABC</a> |
+            <a href="/tunes/{{page.tune}}.pdf">PDF</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="span12">
+          <div class="content">
+{{content}}
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+    <script src="/js/share.js"></script>
+  </body>
+</html>
